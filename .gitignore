@@ -1,0 +1,46 @@
+# Backend
+# dependencies
+cr-backend/node_modules
+cr-backend/.pnp
+.pnp.js
+
+# testing
+cr-backend/coverage
+
+# production
+cr-backend/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#Frontend
+
+# dependencies
+cr-frontend/node_modules
+cr-frontend/.pnp
+.pnp.js
+
+# testing
+cr-frontend/coverage
+
+# production
+cr-frontend/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
