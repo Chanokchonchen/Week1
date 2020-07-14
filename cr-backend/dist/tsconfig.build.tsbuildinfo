@@ -1152,7 +1152,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.service.ts": {
-        "version": "5f2b980259a6cb08f3fe2b6ce4da175589b744b68e36f0a12664df92c42d4577",
+        "version": "fc772b4a060cd3c217c1277c157862dfe625891c733c513c6bbdf71fc090dce4",
         "signature": "653711fba8904aa27fd8911b63cf526e7b334e13a292da4cefdbbe179ac3f3f2",
         "affectsGlobalScope": false
       },
@@ -1161,8 +1161,13 @@
         "signature": "ef022c91ea9e75ab4082f2e881f9c4db7b346be2da706e876b253bebce5e6140",
         "affectsGlobalScope": false
       },
+      "../src/courses.controller.ts": {
+        "version": "fdd600cdce60035ca3036bff8343076823375d33d49a2af1b1d19d605fed756b",
+        "signature": "d3b68dfc2a66839ea53f601f8ee65ae1dd184475e20660f3fa44b36a2a5cf8e5",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "319f8e45e370ba3d33f0887e3046096714959d3764fc68b444885cfdb9c101dd",
+        "version": "a0ecc8580b61dd4d2bb2f139cbdf24832ac4ced27d917660bb5914365f810986",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -1347,7 +1352,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "e25d9bd8f80b6ffbcc8826ed1b407e747e4fbe346c5bab62cbe5837da4eeb189",
+        "version": "30f450c04dca4cdc6bf920128d7415c67a50e69d71dcf0c15a56fa6559feafe6",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -5148,9 +5153,18 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../src/app.controller.ts",
-        "../src/app.service.ts"
+        "../src/app.service.ts",
+        "../src/courses.controller.ts"
       ],
       "../src/app.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/courses.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -8807,6 +8821,7 @@
       "../src/app.controller.ts",
       "../src/app.module.ts",
       "../src/app.service.ts",
+      "../src/courses.controller.ts",
       "../src/main.ts"
     ]
   },
